@@ -7,17 +7,9 @@
     "start": "nodemon ./src/server.js",
     "lint": "eslint ./src"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hanjes15/notes-app-back-end.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hanjes15/notes-app-back-end/issues"
-  },
-  "homepage": "https://github.com/hanjes15/notes-app-back-end#readme",
   "dependencies": {
     "@hapi/hapi": "^20.1.5",
     "nanoid": "^3.1.25"
