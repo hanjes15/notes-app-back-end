@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/server.js",
-    "lint": "eslint ./src"
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src",
+    "start-prod":"NODE_ENV=producton node ./src/server.js"
   },
   "keywords": [],
   "author": "",
