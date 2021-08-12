@@ -1,25 +1,31 @@
 {
-  "name": "notes-app-back-end",
+  "name": "submission-dicoding",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-prod":"NODE_ENV=production node ./src/server.js",
-    "start-dev": "nodemon ./src/server.js",
-    "lint": "eslint ./src",
-    "fix":"npx eslint . --fix"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanjes15/notes-app-back-end.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanjes15/notes-app-back-end/issues"
+  },
+  "homepage": "https://github.com/hanjes15/notes-app-back-end#readme",
   "dependencies": {
     "@hapi/hapi": "^20.1.5",
-    "nanoid": "^3.1.23"
+    "nanoid": "^3.1.25"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.24.0",
     "nodemon": "^2.0.12"
   }
 }
